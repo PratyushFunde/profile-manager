@@ -4,11 +4,11 @@ import { NgFor, NgIf } from '@angular/common';
 import { GoogleMapsModule } from '@angular/google-maps';
 
 @Component({
-  selector: 'app-profile',
-  standalone: true,
-  imports: [NgFor,GoogleMapsModule,NgIf],
-  templateUrl: './profile.component.html',
-  styleUrl: './profile.component.scss'
+    selector: 'app-profile',
+    standalone:true,
+    imports: [NgFor, GoogleMapsModule, NgIf],
+    templateUrl: './profile.component.html',
+    styleUrl: './profile.component.scss'
 })
 export class ProfileComponent {
 @Input() users:user[]=[];

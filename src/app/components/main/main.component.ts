@@ -11,11 +11,11 @@ import { AddProfileComponent } from "../add-profile/add-profile.component";
 import { FormsModule } from '@angular/forms';
 
 @Component({
-  selector: 'app-main',
-  standalone: true,
-  imports: [ProfileComponent, NgIf, AdminComponent, AddProfileComponent,FormsModule,NgClass],
-  templateUrl: './main.component.html',
-  styleUrl: './main.component.scss'
+    selector: 'app-main',
+    standalone:true,
+    imports: [ProfileComponent, NgIf, AdminComponent, AddProfileComponent, FormsModule, NgClass],
+    templateUrl: './main.component.html',
+    styleUrl: './main.component.scss'
 })
 export class MainComponent {
 

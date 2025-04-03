@@ -4,11 +4,11 @@ import { GoogleMap, GoogleMapsModule, MapMarker } from '@angular/google-maps';
 import { RouterModule } from '@angular/router';
 
 @Component({
-  selector: 'app-google-map',
-  standalone: true,
-  imports: [CommonModule,GoogleMapsModule,RouterModule,NgFor],
-  templateUrl: './google-map.component.html',
-  styleUrl: './google-map.component.scss'
+    selector: 'app-google-map',
+    standalone:true,
+    imports: [CommonModule, GoogleMapsModule, RouterModule, NgFor],
+    templateUrl: './google-map.component.html',
+    styleUrl: './google-map.component.scss'
 })
 export class GoogleMapComponent {
   center = { lat: 28.7041, lng: 77.1025 };

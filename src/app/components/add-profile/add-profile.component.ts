@@ -6,11 +6,11 @@ import { DataService } from '../../services/data.service';
 import { environment } from '../../../environments/environment';
 
 @Component({
-  selector: 'app-add-profile',
-  standalone: true,
-  imports: [FormsModule],
-  templateUrl: './add-profile.component.html',
-  styleUrl: './add-profile.component.scss'
+    selector: 'app-add-profile',
+    standalone:true,
+    imports: [FormsModule],
+    templateUrl: './add-profile.component.html',
+    styleUrl: './add-profile.component.scss'
 })
 export class AddProfileComponent {
   http = inject(HttpClient);
