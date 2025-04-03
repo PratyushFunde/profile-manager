@@ -61,6 +61,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📬 Contact
 For any inquiries or feedback, feel free to reach out:
 - **Email:** pratyushfunde6@gmail.com
-- **GitHub:** [your-username](https://github.com/your-username)
+- **GitHub:** [PratyushFunde]([https://github.com/your-username](http://github.com/PratyushFunde/profile-manager/))
 
-## Deployed Link 
+## Deployed Link
+https://profile-manager-beta.vercel.app/
