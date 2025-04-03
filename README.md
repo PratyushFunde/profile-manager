@@ -11,7 +11,7 @@ Profile Explorer is an interactive web application that allows users to view a l
 - Seamless navigation between profile details and location mapping.
 
 ## 🛠️ Tech Stack
-- **Frontend:** Angular, TypeScript, HTML, CSS
+- **Frontend:** Angular, TypeScript, HTML, SCSS
 - **Backend:** Node.js (if applicable)
 - **API Integration:** Google Maps API
 - **Database:** Firebase / MongoDB (if applicable)
