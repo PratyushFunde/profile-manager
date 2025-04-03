@@ -1,0 +1,42 @@
+<div class="main">
+    <table>
+        <thead>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Photo URL</th>
+            <th>Actions</th>
+        </thead>
+        <tbody>
+            <tr *ngFor="let user of users">
+                <td>{{user.id}}</td>
+                <td>{{user.name}}</td>
+                <td>{{user.description}}</td>
+                <td>{{user.photo}}</td>
+                <td>
+                    <button class="edit btn" (click)="onEdit(user)" >Edit</button> 
+                    <button class="delete btn" (click)="onDelete(user.id)">Delete</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="edit-container bd8" *ngIf="user">
+
+        <h3>Edit User</h3>
+        <form >
+            <label>ID:</label>
+  <input [(ngModel)]="user.id" name="id" disabled />
+
+  <label>Name:</label>
+  <input [(ngModel)]="user.name" name="name" required />
+  
+  <label>Description:</label>
+  <textarea [(ngModel)]="user.description" name="description" required></textarea>
+  
+  <button (click)="save()">Save</button>
+  <button (click)="onClose()" class="close">Close</button>
+</form>
+</div>
+
+</div>

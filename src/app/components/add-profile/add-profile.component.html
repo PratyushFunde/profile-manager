@@ -1,0 +1,24 @@
+<div class="form-container">
+    
+        <form #dataForm="ngForm" (ngSubmit)="onFormSubmit(dataForm)">
+            <label for="name">Name:</label>
+            <input id="name" name="name" type="text" required ngModel>
+
+            <label for="description">Description:</label>
+            <textarea id="description" name="description" required ngModel></textarea>
+
+            <label for="id">ID:</label>
+            <input id="id" name="id" type="text" required ngModel>
+
+            <label for="id">Profile Picture URL:</label>
+            <input id="id" name="url" type="text" required ngModel>
+
+            <label for="address">Address:</label>
+            <textarea id="address" name="address" required resize="false" ngModel></textarea>
+
+            <button type="submit" [disabled]="isLoading">{{isLoading? 'Loading...' :'Submit'}}</button>
+        </form>
+        <button (click)="onClose()" class="close">Close</button>
+        <h3>Edit User</h3>
+
+</div>

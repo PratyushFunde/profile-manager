@@ -1,0 +1,39 @@
+
+<section class="profile-container">
+  
+  <div class="wrapper" *ngFor="let user of users">
+    <div class="img-area">
+      <div class="inner-area">
+        <img src="{{user.photo}}" alt="">
+      </div>
+    </div>
+    <div class="name">{{user.name}}</div>
+    <p class="about">{{user.description}}</p>
+    <div class="buttons">
+      <!-- <button>Message</button> -->
+      <button (click)="onSummaryClick(user.lat,user.lng,user.name,user.photo)">Summary</button>
+    </div>
+  </div>
+
+
+</section>
+<div class="map-box" *ngIf="isMap">
+
+  <div class="map-container">
+    <button (click)="onCloseMap()" class="close cls-btn">Close</button>
+    <google-map 
+    [center]="center" 
+    [zoom]="zoom"
+    #map
+    class="map"
+  >
+    <map-marker 
+      
+      [position]="marker.position"
+      [title]="marker.title"
+    >
+  </map-marker>
+  </google-map>
+  
+</div>
+  </div>

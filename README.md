@@ -1,27 +1,66 @@
-# ProfileManager
+# Profile Explorer
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.11.
+## 📌 Overview
+Profile Explorer is an interactive web application that allows users to view a list of profiles and explore their addresses on a map. This application provides an intuitive and user-friendly experience for navigating profiles and visualizing the geographic locations associated with each individual.
 
-## Development server
+## 🚀 Features
+- Display a list of user profiles with key details.
+- Interactive map integration to visualize user addresses.
+- Address search functionality using Google Maps API.
+- Responsive and user-friendly interface.
+- Seamless navigation between profile details and location mapping.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 🛠️ Tech Stack
+- **Frontend:** Angular, TypeScript, HTML, CSS
+- **Backend:** Node.js (if applicable)
+- **API Integration:** Google Maps API
+- **Database:** Firebase / MongoDB (if applicable)
+- **State Management:** RxJS (if applicable)
 
-## Code scaffolding
+## 🔧 Installation
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-username/profile-explorer.git
+   cd profile-explorer
+   ```
+2. Install dependencies:
+   ```sh
+   npm install
+   ```
+3. Add your Google Maps API key in the `environment.ts` file:
+   ```typescript
+   export const environment = {
+     production: false,
+     googleAPIKey: 'YOUR_GOOGLE_MAPS_API_KEY'
+   };
+   ```
+4. Start the development server:
+   ```sh
+   ng serve
+   ```
+5. Open the application in your browser at `http://localhost:4200`
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 🎯 Usage
+- View the list of profiles.
+- Click on a profile to see the associated address on the map.
+- Use the search bar to find specific profiles.
+- Explore locations interactively through the map interface.
 
-## Build
+## 🏗️ Future Enhancements
+- Implement user authentication for personalized experiences.
+- Add filtering and sorting options for profile listings.
+- Enhance UI with advanced animations and transitions.
+- Optimize performance for faster loading times.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## 🤝 Contributing
+Contributions are welcome! Feel free to open issues or submit pull requests to improve the project.
 
-## Running unit tests
+## 📜 License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## 📬 Contact
+For any inquiries or feedback, feel free to reach out:
+- **Email:** pratyushfunde6@gmail.com
+- **GitHub:** [your-username](https://github.com/your-username)
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Deployed Link 

@@ -1,1 +1,29 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: "Poppins";
+}
+
+body {
+    // background-color: rgb(39, 39, 39);
+    background: rgb(43, 88, 118);
+    // background: linear-gradient(90deg, rgba(43,88,118,1) 43%, rgba(78,67,118,1) 87%);
+}
+
+.close{
+    background-color: rgba(255, 0, 0, 0.871) !important;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: rgb(220, 218, 218); 
+    border-radius: 3px;
+  }
